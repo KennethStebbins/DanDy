@@ -1,6 +1,6 @@
 .navbarRoot {
     width: 100%;
-    background-color: antiquewhite;
+    background-color: #554FE6;
     margin: 0px 0px 30px 0px;
     box-shadow: 0px -10px 15px 10px black;
 }
@@ -11,12 +11,13 @@
 }
 
 .ulNavbarTabs li {
+    color: white;
     display: inline-flex;
     margin: 10px 15px;
 }
 
 .ulNavbarTabs li:hover {
-    color: azure;
+    color: #AAA;
 }
 
 a {
