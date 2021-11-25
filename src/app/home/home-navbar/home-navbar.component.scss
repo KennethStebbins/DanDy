@@ -1,0 +1,25 @@
+.navbarRoot {
+    width: 100%;
+    background-color: antiquewhite;
+    margin: 0px 0px 30px 0px;
+    box-shadow: 0px -10px 15px 10px black;
+}
+
+.ulNavbarTabs {
+    margin: 0;
+    padding: 0px 10px;
+}
+
+.ulNavbarTabs li {
+    display: inline-flex;
+    margin: 10px 15px;
+}
+
+.ulNavbarTabs li:hover {
+    color: azure;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
