@@ -1,0 +1,16 @@
+.content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.chatHistory {
+    background-color: green;
+    flex: 4 1;
+}
+
+.chatControls {
+    background-color: blueviolet;
+    height: 150px;
+}

@@ -1,8 +1,19 @@
 .root {
     height: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
 .content {
-    display: grid;
-    grid-template-columns: 75% 25%;
+    flex: 1 1;
+
+    display: flex;
+}
+
+app-game-board {
+    flex: 1 1;
+}
+
+app-chat-window {
+    width: 325px;
 }
