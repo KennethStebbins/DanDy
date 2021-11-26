@@ -7,10 +7,40 @@
 
 .chatHistory {
     background-color: green;
-    flex: 4 1;
+    flex: 1 1;
+    overflow-y: scroll;
+    scrollbar-width: none;
 }
 
 .chatControls {
     background-color: blueviolet;
-    height: 150px;
+    min-height: 150px;
+
+    display: flex;
+}
+
+.chatInputContainer {
+    flex: 1 1;
+
+    display: flex;
+    padding: 5px;
+}
+
+.chatInputContainer textarea {
+    resize: none;
+    flex: 1 1;
+}
+
+.chatButtonContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 10px;
+    padding: 5px 5px 5px 0;
+}
+
+.chatButtonContainer button {
+    flex: 1 1;
+    max-height: 50px;
+    max-width: 50px;
 }
