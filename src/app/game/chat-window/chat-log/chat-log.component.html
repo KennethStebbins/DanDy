@@ -1,0 +1,16 @@
+<div class="root" *ngIf="chatLog">
+    <div class="left">
+        <img class="senderPicture" [src]="chatLog.senderPictureUrl"/>
+    </div>
+    <div class="right">
+        <div class="nameContainer">
+            <span class="senderName">{{chatLog.senderName}}</span>
+        </div>
+        <div class="contentContainer">
+            <span class="textContent" *ngIf="chatLog.textContent">{{chatLog.textContent}}</span>
+            <div class="content" *ngIf="chatLog.content">
+                {{chatLog.content}}
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,6 +1,8 @@
 
 <div class="content">
-    <div class="chatHistory"></div>
+    <div class="chatHistory">
+        <app-chat-log *ngFor="let log in chatService.chatHistory" [chatLog]="log"></app-chat-log>
+    </div>
     <div class="chatControls">
         <div class="chatInputContainer">
             <textarea></textarea>

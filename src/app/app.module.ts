@@ -9,6 +9,7 @@ import { GameComponent } from './game/game.component';
 import { GameBoardComponent } from './game/game-board/game-board.component';
 import { ChatWindowComponent } from './game/chat-window/chat-window.component';
 import { GameNavbarComponent } from './game/game-navbar/game-navbar.component';
+import { ChatLogComponent } from './game/chat-window/chat-log/chat-log.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { GameNavbarComponent } from './game/game-navbar/game-navbar.component';
     GameComponent,
     GameBoardComponent,
     ChatWindowComponent,
-    GameNavbarComponent
+    GameNavbarComponent,
+    ChatLogComponent
   ],
   imports: [
     BrowserModule,
